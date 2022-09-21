@@ -1,0 +1,168 @@
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* font families
+font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+h1 {
+  color: white;
+  font-weight: bold;
+  font-family: "Montserrat-black", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-weight: 400;
+  font-family: "Montserrat-bold" sans-serif;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* title */
+#title {
+  background-color: #142850;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* navigationbar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 0.9rem;
+  font-family: "Montserrat";
+}
+
+.brand-img {
+  color: #fff;
+  padding: 5% 0 0 15%;
+}
+
+.title-buttons {
+  margin: 5% 3% 5% 0;
+}
+
+/* features */
+#about {
+  text-align: center;
+}
+
+.card {
+  /* box-shadow: 0px 0px 2px 2px #ccc; */
+  transition: 0.5s;
+  height: 600px;
+  border: none;
+  padding-top: 10px;
+}
+#about .card-header {
+  background-color: #fff;
+}
+.card:hover {
+  box-shadow: 0px 0px 4px 4px #ccc;
+}
+.card:hover .feature-icon {
+  transform: scale(1.05);
+  opacity: 0.7;
+}
+#about .card-body p {
+  text-align: justify;
+}
+
+.feature-icon {
+  color: #00909e;
+  transition: 0.3s;
+}
+
+/* Quality */
+#quality {
+  color: white;
+  background-color: #27496d;
+  text-align: center;
+}
+
+.our-quality {
+  padding: 10% 0 10% 0;
+}
+
+/* our-customers */
+#our-customers {
+  padding: 5% 0 5% 0;
+  text-align: center;
+}
+
+.press-logo {
+  width: 70%;
+  margin: 20px 20px 50px 20px;
+}
+
+/* products section */
+.prods-main {
+  padding: 40px 10% 40px 10%;
+  background: #27496d;
+  color: #fff;
+}
+
+.prods {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: #27496d;
+  color: #fff;
+}
+.boxs {
+  margin: 20px;
+  overflow: hidden;
+}
+
+.para {
+  background-color: #fff;
+}
+
+/* contact-form */
+#contact-us {
+  padding: 5% 0 5% 0;
+  color: white;
+  background-color: #142850;
+}
+#contact-us h2 {
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+/* LOCATION */
+
+.location .col-lg-12 {
+  height: 350px;
+  padding: 0 50px;
+  margin: 10px 0 10px 0;
+}
