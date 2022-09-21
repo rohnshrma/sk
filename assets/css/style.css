@@ -38,7 +38,7 @@ p {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 10%;
 }
 
 /* navigationbar */
@@ -57,6 +57,7 @@ p {
 }
 
 .nav-link {
+  color: #fff !important;
   font-size: 0.9rem;
   font-family: "Montserrat";
 }
@@ -106,6 +107,9 @@ p {
   color: white;
   background-color: #27496d;
   text-align: center;
+}
+#quality p{
+  font-size:18px;  color:#fff;
 }
 
 .our-quality {
@@ -165,4 +169,10 @@ p {
   height: 350px;
   padding: 0 50px;
   margin: 10px 0 10px 0;
+}
+
+@media only screen and (max-width: 968px) {
+ #about .card{
+  height: auto;
+ }
 }
