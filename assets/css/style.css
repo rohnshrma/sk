@@ -1,7 +1,9 @@
 * {
   scroll-behavior: smooth;
 }
-
+.row{
+  margin: 0;
+}
 body {
   font-family: "Montserrat", sans-serif;
 }
